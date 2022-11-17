@@ -19,8 +19,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Entity(name = "BoletaDeVentaEntity")
-@Table(name = "BoletaDeVenta")
+@Entity(name = "BoletadeVenta")
+@Table(name = "boletadeventa")
 public class BoletaDeVenta implements Serializable{
     private static final long serialVersionUID=1L;
     @Id
@@ -33,7 +33,7 @@ public class BoletaDeVenta implements Serializable{
     private double monto;
     @Column(name="vuelto")
     private double vuelto; 
-    @Column(name="estcat")
+    @Column(name="estado")
     private Boolean estado;
     @ManyToOne
     @JoinColumn(name="idventa",nullable=false)
