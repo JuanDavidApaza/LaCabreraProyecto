@@ -8,10 +8,7 @@ import java.util.List;
 import java.util.Optional;
 import pe.com.lacabrera.proyecto.entity.DetalleOrdenPedido;
 
-/**
- *
- * @author one
- */
+
 public interface DetalleOrdenPedidoService {
 
     public List<DetalleOrdenPedido> findAll();

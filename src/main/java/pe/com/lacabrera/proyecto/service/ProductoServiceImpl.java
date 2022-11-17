@@ -6,7 +6,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.lacabrera.proyecto.entity.Producto;
-import pe.com.proyecto.repository.ProductoRepository;
+import pe.com.lacabrera.proyecto.repository.ProductoRepository;
 
 @Service
 public class ProductoServiceImpl implements ProductoService{

@@ -7,7 +7,8 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.lacabrera.proyecto.entity.Cajero;
-import pe.com.proyecto.repository.CajeroRepository;
+import pe.com.lacabrera.proyecto.repository.CajeroRepository;
+
 @Service
 public class CajeroServiceImpl implements CajeroService{
     

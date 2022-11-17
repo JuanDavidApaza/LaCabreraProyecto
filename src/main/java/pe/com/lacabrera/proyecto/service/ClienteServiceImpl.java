@@ -6,7 +6,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.lacabrera.proyecto.entity.Cliente;
-import pe.com.proyecto.repository.ClienteRepository;
+import pe.com.lacabrera.proyecto.repository.ClienteRepository;
 
 @Service
 public class ClienteServiceImpl implements ClienteServie {

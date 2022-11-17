@@ -1,5 +1,5 @@
 
-package pe.com.proyecto.repository;
+package pe.com.lacabrera.proyecto.repository;
 
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;

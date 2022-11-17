@@ -7,7 +7,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.lacabrera.proyecto.entity.OrdenPedido;
-import pe.com.proyecto.repository.OrdenPedidoRepository;
+import pe.com.lacabrera.proyecto.repository.OrdenPedidoRepository;
 
 @Service
 public class OrdenPedidoServiceImpl implements OrdenPedidoService{
