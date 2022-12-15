@@ -6,7 +6,7 @@ import java.util.Optional;
 import pe.com.lacabrera.proyecto.entity.BoletaDeVenta;
 
 
-public interface BoletaDeVentaPedidoService {
+public interface BoletaDeVentaService {
     public List<BoletaDeVenta> findAll();
     
     public List<BoletaDeVenta> findAllCustom();

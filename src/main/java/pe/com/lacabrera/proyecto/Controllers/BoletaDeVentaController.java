@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import pe.com.lacabrera.proyecto.entity.BoletaDeVenta;
-import pe.com.lacabrera.proyecto.service.BoletaDeVentaPedidoService;
+import pe.com.lacabrera.proyecto.service.BoletaDeVentaService;
 
 
 @RestController
@@ -24,7 +24,7 @@ import pe.com.lacabrera.proyecto.service.BoletaDeVentaPedidoService;
 public class BoletaDeVentaController {
     
     @Autowired
-    private BoletaDeVentaPedidoService service;
+    private BoletaDeVentaService service;
     
     @GetMapping
     public List<BoletaDeVenta> findAll(){

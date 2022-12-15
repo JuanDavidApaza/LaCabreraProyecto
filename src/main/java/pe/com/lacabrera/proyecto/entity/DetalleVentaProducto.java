@@ -13,34 +13,31 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import javax.persistence.ManyToOne;
 
-/*@Builder
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Entity(name = "DetalleVentaProductoEntity")
-@Table(name = "DetalleVentaProducto")
-*/public class DetalleVentaProducto implements Serializable{
-  /*  private static final long serialVersionUID = 1L;
+@Entity(name = "detalle_venta_producto")
+@Table(name = "detalle_venta_producto")
+public class DetalleVentaProducto implements Serializable{
+    private static final long serialVersionUID = 1L;
     @Id
     @Column(name = "iddeven")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-    @Column(name = "nompro")
-    private String nombre;
-    @Column(name = "preproc")
-    private double precioCompra;
-    @Column(name = "preprov")
-    private double precioVenta;
-    @Column(name = "canpro")
+    private long codigo; 
+    @Column(name = "precio")
+    private double precio;
+    @Column(name = "cantidad")
     private int cantidad;
-    @Column(name = "estpro")
+    @Column(name = "estado")
     private boolean estado;
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name="idventa",nullable=false)
     private Venta venta;
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name="idproducto",nullable=false)
     private Producto producto;
-*/
+
 }

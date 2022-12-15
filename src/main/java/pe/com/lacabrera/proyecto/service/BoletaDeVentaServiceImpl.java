@@ -14,7 +14,7 @@ import pe.com.lacabrera.proyecto.repository.BoletaDeVentaRepository;
 
 
 @Service
-public class BoletaDeVentaServiceImpl implements BoletaDeVentaPedidoService{
+public class BoletaDeVentaServiceImpl implements BoletaDeVentaService{
    
     @Autowired
     private BoletaDeVentaRepository repository;

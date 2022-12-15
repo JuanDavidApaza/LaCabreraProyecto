@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.Query;
 import pe.com.lacabrera.proyecto.entity.Cajero;
 
 public interface CajeroRepository extends JpaRepository<Cajero, Long >{
-    @Query("select p from cajero p where p.estado = '0'")
+    @Query("select p from cajero p where p.estado = '1'")
     List<Cajero> findAllCustom();
 }

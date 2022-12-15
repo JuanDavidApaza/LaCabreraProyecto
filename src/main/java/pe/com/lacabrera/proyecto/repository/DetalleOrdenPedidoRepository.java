@@ -14,7 +14,7 @@ import pe.com.lacabrera.proyecto.entity.DetalleOrdenPedido;
  * @author one
  */
 public interface DetalleOrdenPedidoRepository extends JpaRepository<DetalleOrdenPedido, Long >{
-    @Query("select p from detalle_orden_pedido p where p.estado = '0'")
+    @Query("select p from detalle_orden_pedido p where p.estado = '1'")
     List<DetalleOrdenPedido> findAllCustom();
     
 }
